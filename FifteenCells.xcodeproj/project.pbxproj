@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		C512F8A01AE68A9400713B2A /* gradientslash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C512F89F1AE68A9400713B2A /* gradientslash.jpg */; };
+		C512F8A21AE693D400713B2A /* lightgradient.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C512F8A11AE693D400713B2A /* lightgradient.jpg */; };
+		C512F8A41AE6941700713B2A /* particles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C512F8A31AE6941700713B2A /* particles.jpg */; };
+		C512F8A61AE6944F00713B2A /* blueGlitter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C512F8A51AE6944F00713B2A /* blueGlitter.jpg */; };
+		C512F8A81AE6949100713B2A /* blackandwhitelines.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C512F8A71AE6949100713B2A /* blackandwhitelines.jpg */; };
+		C512F8AA1AE695E500713B2A /* disneyCastle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C512F8A91AE695E500713B2A /* disneyCastle.jpg */; };
 		C58E6AE41AE576D300A6AF03 /* tile10.png in Resources */ = {isa = PBXBuildFile; fileRef = C58E6AE31AE576D300A6AF03 /* tile10.png */; };
 		C58E6AE61AE5793900A6AF03 /* tile11.png in Resources */ = {isa = PBXBuildFile; fileRef = C58E6AE51AE5793900A6AF03 /* tile11.png */; };
 		C58E6AE81AE5793F00A6AF03 /* tile12.png in Resources */ = {isa = PBXBuildFile; fileRef = C58E6AE71AE5793F00A6AF03 /* tile12.png */; };
@@ -46,6 +51,11 @@
 
 /* Begin PBXFileReference section */
 		C512F89F1AE68A9400713B2A /* gradientslash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gradientslash.jpg; sourceTree = "<group>"; };
+		C512F8A11AE693D400713B2A /* lightgradient.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lightgradient.jpg; sourceTree = "<group>"; };
+		C512F8A31AE6941700713B2A /* particles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = particles.jpg; sourceTree = "<group>"; };
+		C512F8A51AE6944F00713B2A /* blueGlitter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blueGlitter.jpg; sourceTree = "<group>"; };
+		C512F8A71AE6949100713B2A /* blackandwhitelines.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blackandwhitelines.jpg; sourceTree = "<group>"; };
+		C512F8A91AE695E500713B2A /* disneyCastle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = disneyCastle.jpg; sourceTree = "<group>"; };
 		C58E6AE31AE576D300A6AF03 /* tile10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile10.png; sourceTree = "<group>"; };
 		C58E6AE51AE5793900A6AF03 /* tile11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile11.png; sourceTree = "<group>"; };
 		C58E6AE71AE5793F00A6AF03 /* tile12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tile12.png; sourceTree = "<group>"; };
@@ -144,6 +154,11 @@
 				C58E6AEB1AE5795000A6AF03 /* tile15.png */,
 				C5F1BEFA1AE67C9C006B80FA /* catsssss.jpg */,
 				C512F89F1AE68A9400713B2A /* gradientslash.jpg */,
+				C512F8A11AE693D400713B2A /* lightgradient.jpg */,
+				C512F8A31AE6941700713B2A /* particles.jpg */,
+				C512F8A51AE6944F00713B2A /* blueGlitter.jpg */,
+				C512F8A71AE6949100713B2A /* blackandwhitelines.jpg */,
+				C512F8A91AE695E500713B2A /* disneyCastle.jpg */,
 				C5F41CC61AE12CBE00F859FE /* Images.xcassets */,
 				C5F41CC81AE12CBE00F859FE /* LaunchScreen.xib */,
 				C5F41CB91AE12CBD00F859FE /* Supporting Files */,
@@ -266,17 +281,22 @@
 				C5F41CFF1AE1BFC400F859FE /* tile9.png in Resources */,
 				C5F41CF81AE1BFC400F859FE /* tile2.png in Resources */,
 				C58E6AE61AE5793900A6AF03 /* tile11.png in Resources */,
+				C512F8A21AE693D400713B2A /* lightgradient.jpg in Resources */,
 				C58E6AE81AE5793F00A6AF03 /* tile12.png in Resources */,
 				C5F41CCA1AE12CBE00F859FE /* LaunchScreen.xib in Resources */,
 				C5F1BEFB1AE67C9C006B80FA /* catsssss.jpg in Resources */,
 				C5F41CFD1AE1BFC400F859FE /* tile7.png in Resources */,
+				C512F8A41AE6941700713B2A /* particles.jpg in Resources */,
+				C512F8AA1AE695E500713B2A /* disneyCastle.jpg in Resources */,
 				C58E6AEE1AE5795000A6AF03 /* tile15.png in Resources */,
 				C512F8A01AE68A9400713B2A /* gradientslash.jpg in Resources */,
 				C5F41CC71AE12CBE00F859FE /* Images.xcassets in Resources */,
+				C512F8A81AE6949100713B2A /* blackandwhitelines.jpg in Resources */,
 				C5F41D061AE1BFC400F859FE /* tile1.png in Resources */,
 				C5F41CFE1AE1BFC400F859FE /* tile8.png in Resources */,
 				C5F41CF91AE1BFC400F859FE /* tile3.png in Resources */,
 				C58E6AEC1AE5795000A6AF03 /* tile13.png in Resources */,
+				C512F8A61AE6944F00713B2A /* blueGlitter.jpg in Resources */,
 				C58E6AED1AE5795000A6AF03 /* tile14.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

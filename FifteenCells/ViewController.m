@@ -6,8 +6,6 @@
 //  Copyright (c) 2015 Elisa Chuang. All rights reserved.
 //
 
-// TODO: scramble button
-//  efficient
 
 #import "ViewController.h"
 #import "ImageViewWithName.h"
@@ -76,6 +74,10 @@
 }
 
 #pragma mark - set up game
+
+-(UIStatusBarStyle)preferredStatusBarStyle{
+    return UIStatusBarStyleLightContent;
+}
 
 -(void)setImageViewNames {
     for (NSInteger i = 0; i < [self.spaces count]; i++) {
@@ -169,7 +171,9 @@
     [self.view removeConstraints:self.view.constraints];
     [self.background removeConstraints:self.background.constraints];
     
-    self.background.image = [UIImage imageNamed:@"gradientslash.jpg"];
+    [self makeBackgroundConstraints];
+    
+    self.background.image = [UIImage imageNamed:@"blueGlitter.jpg"];
     
     
     [self.scrambleButton removeConstraints:self.scrambleButton.constraints];
@@ -261,6 +265,22 @@
     
     
     
+}
+
+-(void)makeBackgroundConstraints {
+    
+    NSLayoutConstraint *backgroundCenterX = [NSLayoutConstraint constraintWithItem:self.background attribute:NSLayoutAttributeCenterX relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeCenterX multiplier:1.0 constant:0.0];
+    [self.view addConstraint:backgroundCenterX];
+    
+    NSLayoutConstraint *backgroundCenterY = [NSLayoutConstraint constraintWithItem:self.background attribute:NSLayoutAttributeCenterY relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeCenterY multiplier:1.0 constant:0.0];
+    [self.view addConstraint:backgroundCenterY];
+    
+    
+    NSLayoutConstraint *backgroundWidth = [NSLayoutConstraint constraintWithItem:self.background attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeWidth multiplier:1.0 constant:0];
+    [self.view addConstraint:backgroundWidth];
+    
+    NSLayoutConstraint *backgroundHeight = [NSLayoutConstraint constraintWithItem:self.background attribute:NSLayoutAttributeHeight relatedBy:NSLayoutRelationEqual toItem:self.view attribute:NSLayoutAttributeHeight multiplier:1.0 constant:0];
+    [self.view addConstraint:backgroundHeight];
 }
 
 -(void)makeRowConstraintsWithViewDictionary:(NSDictionary *)viewDictionary {
